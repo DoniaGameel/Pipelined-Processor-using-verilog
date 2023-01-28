@@ -104,7 +104,7 @@ To See more details you can open **'design.drawio'** file in [This Site](https:/
 
 2-else it will be the output of instructions memory.
 
-## Alu OpCodes (from decoding stage to ALU)
+## ALU OpCodes (from decoding stage to ALU)
 
 ## Full forwarding unit truth table
 
