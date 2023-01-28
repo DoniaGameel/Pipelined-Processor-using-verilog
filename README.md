@@ -114,6 +114,10 @@ To See more details you can open **'design.drawio'** file in [This Site](https:/
 
 We used **static branch predicion**
 
+## Assembler
+
+## Test Cases
+
 ## Files Structure
 
 ##  How to simulate it?
