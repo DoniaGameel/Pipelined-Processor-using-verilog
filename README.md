@@ -122,7 +122,15 @@ To See more details you can open **'design.drawio'** file in [This Site](https:/
 
 ## Instructions format
 
+![My Image](Figures/Instructions_Format_1.png)
+
+![My Image](Figures/Instructions_Format_2.png)
+
+![My Image](Figures/Instructions_Format_3.png)
+
 ## PC control unit
+
+![My Image](Figures/PC_control_unit.png)
 
 ## Entered Instruction in IF/IE buffer:
 
@@ -132,7 +140,11 @@ To See more details you can open **'design.drawio'** file in [This Site](https:/
 
 ## ALU OpCodes (from decoding stage to ALU)
 
+![My Image](Figures/ALU_OP_Code.png)
+
 ## Full forwarding unit truth table
+
+![My Image](Figures/Full_Forwarding_Unit_Truth_Table.png)
 
 ## Handled Hazards
 
