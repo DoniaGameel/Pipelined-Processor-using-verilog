@@ -148,6 +148,22 @@ To See more details you can open **'design.drawio'** file in [This Site](https:/
 
 ## Handled Hazards
 
+**Control Hazards**: 
+
+We used static branch prediction
+
+**Data Hazards**:
+
+We used full-forwarding 
+
+In **load use case** we stall one cycle.
+
+**Structural Hazards**:
+
+Separate memories for data and instructions (Harvard architecture) 
+
+Writing to registers is in first-half of the clock cycle 7 reading is in the second-half cycle
+
 ## Branch predicion
 
 We used **static branch predicion**
