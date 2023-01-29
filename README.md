@@ -28,7 +28,7 @@ We have **only one interrupt program,** the one which starts at the top of the i
 
 To **return from an interrupt,** an RTI instruction **loads the PC from the top of stack,** **restores the processor state (Flags),** and the flow of the program resumes from the instruction that was supposed to be fetched in-order before handling the interrupted instruction.
 
-![My Image](Figures/figure1.png)
+![My Image](Figures/Figure1.png)
 
 ## ISA specifications
 
@@ -78,45 +78,45 @@ To **return from an interrupt,** an RTI instruction **loads the PC from the top 
 
 **The whole design**
 
-![My Image](Figures/Memory,The_Whole_Design.png)
+![My Image](Figures/The_Whole_Design.png)
 
 **Fetch Stage**
 
-![My Image](Figures/Memory,Fetch_Stage.png)
+![My Image](Figures/Fetch_Stage.png)
 
 **Decode Stage**
 
-![My Image](Figures/Memory,Decode_Stage.png)
+![My Image](Figures/Decode_Stage.png)
 
 **Execute Stage**
 
-![My Image](Figures/Memory,Execute_Stage.png)
+![My Image](Figures/Execute_Stage.png)
 
 **Memory Stage**
 
-![My Image](Figures/Memory,Memory_Stage_1.png)
+![My Image](Figures/Memory_Stage_1.png)
 
-![My Image](Figures/Memory,Memory_Stage_2.png)
+![My Image](Figures/Memory_Stage_2.png)
 
-![My Image](Figures/Memory,Memory_Stage_3.png)
+![My Image](Figures/Memory_Stage_3.png)
 
 **Write Back Stage**
 
-![My Image](Figures/Memory,Write_Back_Stage.png)
+![My Image](Figures/Write_Back_Stage.png)
 
 **Interrupt,Call,RET & RTI controllers**
 
-![My Image](Figures/Memory,Interrupt_Controller_1.png)
+![My Image](Figures/Interrupt_Controller_1.png)
 
-![My Image](Figures/Memory,Interrupt_Controller_2.png)
+![My Image](Figures/Interrupt_Controller_2.png)
 
 **Hazard detection unit and forwarding unit**
 
-![My Image](Figures/Memory,HDU&FU.png)
+![My Image](Figures/HDU&FU.png)
 
 **Flush Controller**
 
-![My Image](Figures/Memory,Flush_Controller.png)
+![My Image](Figures/Flush_Controller.png)
 
 To See more details you can open **'design.drawio'** file in [This Site](https://app.diagrams.net/)
 
