@@ -154,10 +154,60 @@ We used **static branch predicion**
 
 ## Assembler
 
+Input files are in Assembly language, so we have assembler file to convert **_assembly language_** to **_machine code_** for our ISA specifications
+
+Not sensetive to spaces before/after operand and opcodes
+
+Not case sensetive
+
+No brackets are allowed ==> remove brackets before you run the assembler
+
+Assembler file is in **_Test Cases & Assembler_** folder 
+
+Put the input text file in the the path of the assembler
+
+Set **_file_name_** with input file name
+
+The Interrupt service routine which starts at **_Org0_** till RTI will be in **_isrMEM.txt_** file
+
+The instructions OP_Codes will be in **_instructionMem.txt_**
+
+Instructions starts with **_.ORG_** in our test cases
+
+We don't use first ORG as the project says that instruction memory starts in **_2^5 memory location_**
+
+Any **_ORG_** we insert **_NOP_** instructions with the number of ORG
+
+Comments in input files start with **_#_**
+
 ## Test Cases
 
-## Files Structure
+There are five test cases in **_Test Cases & Assembler_** folder
+
+Set **_file_name_** in assembler with each test case file name 
+
+OP_Coes will be in **_isrMEM.txt_** & **_instructionMem.txt_** files
 
 ##  How to simulate it?
 
+1-Open Modelsim
+
+2- Create new project
+
+3- Add all files from **_DecodeStage_**, **_ExecuteStage_**,**_FetchStage_**,**_MemoryStage_**, **_WriteBackStage_**& **_Controllers_** folders
+
+4- Add files **_proces_tb.v_**, **_processor.v_**
+
+5- Add file **_do_processor_tb.tcl_** from **_TCL files_** folder
+
+6- Simulate **_do_processor_tb.tcl_** to test the instructions in **_isrMEM.txt_** & **_instructionMem.txt_** files using Modelsim
+
 ## Contributors
+
+[Ahmed Lotfy](https://github.com/AhmedLotfy02).
+
+[Donia Gameel](https://github.com/DoniaGameel).
+
+[Heba Ashraf](https://github.com/hebaashraf21).
+
+[Menatalh Hossamalden](https://github.com/MennaTalhHossamAlden).
